@@ -1,6 +1,6 @@
-# 🍕 Pizza Sales Analysis — MySQL Project
+# 🍕 Pizza Sales Analysis - MySQL Project
 
-A structured SQL analytics project built on a real-world-style pizza restaurant dataset. This project covers fundamental to advanced MySQL querying — from basic aggregations and joins to subqueries, window functions, and category-wise revenue rankings — across four relational tables.
+A structured SQL analytics project built on a real-world-style pizza restaurant dataset. This project covers fundamental to advanced MySQL querying - from basic aggregations and joins to subqueries, window functions, and category-wise revenue rankings - across four relational tables.
 
 ---
 
@@ -25,7 +25,7 @@ A structured SQL analytics project built on a real-world-style pizza restaurant 
 
 This project simulates a Pizza Hut-style sales analytics system using MySQL. It models the relationships between customer orders, order line items, pizza variants (by size and price), and pizza type metadata (category, name, ingredients).
 
-The goal is to practice and demonstrate real-world SQL skills — from simple counts and revenue totals to multi-table joins, percentage contribution calculations, hourly demand distribution, and category-wise revenue ranking using window functions.
+The goal is to practice and demonstrate real-world SQL skills - from simple counts and revenue totals to multi-table joins, percentage contribution calculations, hourly demand distribution, and category-wise revenue ranking using window functions.
 
 ---
 
@@ -88,31 +88,31 @@ pizza_types
 ### 🟢 Basic Queries (Q1–Q5)
 Foundational SQL: counts, aggregations, sorting, and simple joins.
 
-- **Q1** — Retrieve the total number of orders placed
-- **Q2** — Calculate total revenue generated from pizza sales
-- **Q3** — Identify the highest-priced pizza
-- **Q4** — Identify the most common pizza size ordered
-- **Q5** — List the top 5 most ordered pizza types along with their quantities
+- **Q1** - Retrieve the total number of orders placed
+- **Q2** - Calculate total revenue generated from pizza sales
+- **Q3** - Identify the highest-priced pizza
+- **Q4** - Identify the most common pizza size ordered
+- **Q5** - List the top 5 most ordered pizza types along with their quantities
 
 ---
 
 ### 🔵 Intermediate Queries (Q6–Q10)
 Multi-table joins, grouping, date/time functions, and subqueries.
 
-- **Q6** — Find the total quantity of each pizza category ordered
-- **Q7** — Determine the distribution of orders by hour of the day
-- **Q8** — Find the category-wise distribution of pizzas (count per category)
-- **Q9** — Calculate the average number of pizzas ordered per day (subquery + `AVG`)
-- **Q10** — Determine the top 3 most ordered pizza types based on revenue
+- **Q6** - Find the total quantity of each pizza category ordered
+- **Q7** - Determine the distribution of orders by hour of the day
+- **Q8** - Find the category-wise distribution of pizzas (count per category)
+- **Q9** - Calculate the average number of pizzas ordered per day (subquery + `AVG`)
+- **Q10** - Determine the top 3 most ordered pizza types based on revenue
 
 ---
 
 ### 🔴 Advanced Queries (Q11–Q13)
 Percentage contributions, cumulative revenue trends, and window functions.
 
-- **Q11** — Calculate the percentage contribution of each pizza category to total revenue (subquery-based share)
-- **Q12** — Analyze the cumulative revenue generated over time (running total by date)
-- **Q13** — Determine the top 3 most ordered pizza types based on revenue **for each category** (`RANK() OVER PARTITION BY`)
+- **Q11** - Calculate the percentage contribution of each pizza category to total revenue (subquery-based share)
+- **Q12** - Analyze the cumulative revenue generated over time (running total by date)
+- **Q13** - Determine the top 3 most ordered pizza types based on revenue **for each category** (`RANK() OVER PARTITION BY`)
 
 ---
 
