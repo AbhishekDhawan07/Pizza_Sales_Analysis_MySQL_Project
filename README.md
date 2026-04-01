@@ -1,4 +1,4 @@
-# 🍕 Pizza Sales Analysis - MySQL Project
+# 🍕 Pizza Sales Analysis using MySQL
 
 A structured SQL analytics project built on a real-world-style pizza restaurant dataset. This project covers fundamental to advanced MySQL querying - from basic aggregations and joins to subqueries, window functions, and category-wise revenue rankings - across four relational tables.
 
